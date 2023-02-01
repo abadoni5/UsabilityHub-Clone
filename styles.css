@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:ital,wght@0,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-text-color: #183b56;
+    --secondary-text-color: #577592;
+    --accent-color: #2294ed;
+    --accent-color-dark: #1d69a3;
+    --padding-inline-section: 20px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: var(--primary-text-color);
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    color: var(--secondary-text-color);
+    line-height: 1.8rem;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* utility class */
+
+.container
+{
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);
+}
+
+.small-bold-text {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.top-banner{
+    background-color: #4fb3d4;
+    background-image: url('./images/asset\ 32.png');
+    background-size: 300px;
+
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.banner-text
+{
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+
+}
+
+.main-nav{
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+ul
+{
+    list-style: none;
+}
+
+.nav-links{
+    flex-basis: 730px;
+}
+
+.nav-links ul{
+    justify-content: end;
+    gap: 40px;
+}
+
+.company-logo img{
+    width: 200px;
+}
+
+.hover-link
+{
+    color: var(--primary-text-color);
+}
+
+.hover-link:hover
+{
+    color: var(--accent-color);
+    transition: 0.2s ease-out;
+}
+
+.sign-in{
+    border: 0.5px solid var(--secondary-text-color);
+    border-radius: 6px;
+    font-weight: 500px;
+    padding: 12px 32px;
+    color: var(--primary-text-color) !important;
+    transition: 0.2s ease-out;
+}
+
+.sign-in:hover{
+    border-color: var(--accent-color);
+    color: var(--accent-color) !important;
+}
+
+.sign-up
+{
+    background-color: var(--accent-color);
+    border-radius: 6px;
+    font-weight: 500px;
+    color: white !important;
+    padding: 12px 32px;
+    box-shadow: 0 0 2px var(--secondary-text-color);
+}
+
+.sign-up:hover
+{
+    background-color: var(--accent-color-dark);
+}
+
+.header{
+    padding: 50px var(--padding-inline-section) 0;
+}
+
+.header-section
+{
+    padding: 50px 0;
+    justify-content: center;
+    gap: 50px;
+}
+
+.header-right img {
+    width: 600px;
+}
+
+.hlp
+{
+    padding: 0 0 20px 0;
+}
+
+.honelp{
+    font-weight: 500;
+}
+
+.header-left
+{
+    max-width: 40vw;
+}
+
+.header-left h1{
+    margin-top: 20px;
+}
+
+.companies-header
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+    align-items: center;
+    font-weight: 500;
+}
+
+
+.logos{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 200px;
+}
+
+.logo
+{
+    height: 46px;
+}
+
+.features{
+    background-image: url(./images/asset\ 50.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.features-text{
+    padding: 80px 0 0 0;
+    text-align: center;
+    font-weight: 400;
+}
+
+.features-area
+{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.features-text h2{
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.features-card h3{
+    font-weight: 500;
+}
+
+.features-card{
+    padding: 20px 0;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 30%;
+    text-align: center;
+}
+
+.features-card img 
+{
+    width: 60px;
+}
+
+.com-logo img
+{
+    width: 200px;
+}
+
+footer
+{
+    margin-top: 80px;
+    padding-block: 80px;
+    background-color: #ebf2fa;
+}
+
+.l1, .l2, .l3{
+    display: flex;
+    align-items: center;
+}
+
+.low{
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.sub-footer
+{
+    background-color: #b9cde4;
+    padding: var(--padding-inline-section);
+}
+
+.subfooter-container{
+    justify-content: center;
+    gap: 30px;
+}
+
+li{
+    padding-bottom: 20px;
+}
